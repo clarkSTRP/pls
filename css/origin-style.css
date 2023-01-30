@@ -19,5 +19,8 @@ font-size: 30px;
 }
 
 .image1{
-   
+   z-index: -1;
+   display: flex;
+   margin: 0 auto;
+   margin-bottom: 0px;
 }
