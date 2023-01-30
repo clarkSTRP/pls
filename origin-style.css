@@ -1,28 +1,26 @@
-body {
-    background-color: blueviolet;
+body .body_homepage {
+    background-color: greenyellow;
+    height: 100vh;
 }
+
 h1{
-    color :aliceblue;
-    text-align:end;
-    font-size: x-large;
+text-decoration: underline red 3px;
+text-align: center;
+font-size: 30px;
+}
+
+.header_description{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
 
 }
 
-.btn{
-    margin-top: 10px;
-    width: 60%;
-    margin-left: 20%;
-    background-color: brown;
-    color: blueviolet;
-    box-shadow: black 2px 3px 4px 5px ;
-}
-
-textarea{
-    margin-top: 20px;
-    width: 40%;
-    margin-left: 10px;
-}
-img{
-    margin-left: 25%;
-    width: 50%;
+.image1{
+   z-index: -1;
+   display: flex;
+   margin: 0 auto;
+   margin-bottom: 0px;
 }
